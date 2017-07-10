@@ -5,6 +5,7 @@
   "author": "Ben Ling <belinghy@gmail.com>",
   "private": true,
   "dependencies": {
+    "firebase": "^3.7.2",
     "nuxt": "latest"
   },
   "scripts": {

@@ -12,16 +12,24 @@
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
       </div>
+      <div>{{ counter }}</div>
+      <button @click="$store.commit('increment')">{{ $store.state.counter }}</button>
     </div>
   </section>
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
 import Logo from '~components/Logo.vue'
 
 export default {
   components: {
     Logo
+  },
+  computed: {
+    ...mapGetters({
+      counter: 'counter'
+    })
   }
 }
 </script>
