@@ -1,8 +1,8 @@
 # nuxt-hackernews-clone
 
-> An experiment with Vue.js and Nuxt.js. This project is a port of Vue HN 2.0 (https://github.com/vuejs/vue-hackernews-2.0) to Nuxt.js (https://nuxtjs.org/).
+An experiment with Vue.js and Nuxt.js. This project is a port of Vue HN 2.0 (https://github.com/vuejs/vue-hackernews-2.0) to Nuxt.js (https://nuxtjs.org/).
 
-![alt text](LighthouseScore.PNG "Lighthouse score")
+![alt text](Demo.PNG "Demo")
 
 ## Todo List
 
@@ -10,6 +10,8 @@
 - [x] Respond with 200 when offline
 - [x] Configure custom splash screen
 - [x] Themed address bar
+
+![alt text](LighthouseScore.PNG "Lighthouse score")
 
 ## Build Setup
 
