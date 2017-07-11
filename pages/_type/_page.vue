@@ -19,13 +19,16 @@
 </template>
 
 <script>
-// import Vue from 'vue'
 import { watchList } from '../../api'
 import Item from '~components/Item.vue'
 
 export default {
   components: {
     Item
+  },
+
+  title () {
+    return 'Main'
   },
 
   asyncData ({ store, route }) {
@@ -58,9 +61,6 @@ export default {
   },
 
   beforeMount () {
-    // Hacky way of adding route to state
-    // Vue.set(this.$store.state, 'route', this.$route)
-
     if (this.$root._isMounted) {
       this.loadItems(this.page)
     }
