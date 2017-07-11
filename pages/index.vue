@@ -34,7 +34,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 .container
   min-height 90vh
   display flex

@@ -4,11 +4,11 @@
       <router-link to="/" exact>
         <img class="logo" src="~assets/logo-48.png" alt="logo">
       </router-link>
-      <router-link to="/top">Top</router-link>
-      <router-link to="/new">New</router-link>
-      <router-link to="/show">Show</router-link>
-      <router-link to="/ask">Ask</router-link>
-      <router-link to="/job">Jobs</router-link>
+      <router-link to="/top/1">Top</router-link>
+      <router-link to="/new/1">New</router-link>
+      <router-link to="/show/1">Show</router-link>
+      <router-link to="/ask/1">Ask</router-link>
+      <router-link to="/job/1">Jobs</router-link>
       <a class="github" href="https://github.com/belinghy/Nuxtjs-HackerNews-Clone" target="_blank" rel="noopener">
         Project on Github
       </a>

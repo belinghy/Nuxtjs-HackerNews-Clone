@@ -34,5 +34,7 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  /* Plugins */
+  plugins: ['~plugins/utils.js']
 }
