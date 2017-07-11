@@ -36,5 +36,13 @@ module.exports = {
     }
   },
   /* Plugins */
-  plugins: ['~plugins/utils.js']
+  plugins: [
+    '~plugins/vuex-router-sync.js',
+    '~plugins/utils.js',
+    { src: '~plugins/beforeRouteUpdate.js', ssr: false }
+  ],
+  /* modules */
+  modules: [
+    '@nuxtjs/component-cache',
+  ]
 }

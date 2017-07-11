@@ -5,8 +5,10 @@
   "author": "Ben Ling <belinghy@gmail.com>",
   "private": true,
   "dependencies": {
+    "@nuxtjs/component-cache": "^0.1.5",
     "firebase": "^3.7.2",
-    "nuxt": "latest"
+    "nuxt": "latest",
+    "vuex-router-sync": "^4.2.0"
   },
   "scripts": {
     "dev": "nuxt",
