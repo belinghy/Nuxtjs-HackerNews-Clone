@@ -27,7 +27,7 @@ module.exports = {
   },
   build: {
     /*
-    ** Run ESLINT on save
+    ** Run ESLINT on save and create-api
     */
     extend (config, ctx) {
       if (ctx.isClient) {
@@ -38,6 +38,7 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+      config.resolve.alias['create-api'] = `./create-api-${ctx.isClient ? 'client' : 'server'}.js`
     }
   },
   /* Plugins */
@@ -50,5 +51,15 @@ module.exports = {
   modules: [
     '@nuxtjs/component-cache',
     '@nuxtjs/pwa'
-  ]
+  ],
+  render: {
+    static: {
+      maxAge: '1y',
+      setHeaders (res, path) {
+        if (path.includes('sw.js')) {
+          res.setHeader('Cache-Control', 'public, max-age=0')
+        }
+      }
+    }
+  }
 }

@@ -9,3 +9,7 @@ npm-debug.log
 
 # Nuxt generate
 dist
+
+static/manifest*.json
+static/sw.js
+static/workbox-sw*.js
