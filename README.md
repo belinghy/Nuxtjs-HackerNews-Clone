@@ -2,12 +2,14 @@
 
 > An experiment with Vue.js and Nuxt.js. This project is a port of Vue HN 2.0 (https://github.com/vuejs/vue-hackernews-2.0) to Nuxt.js (https://nuxtjs.org/).
 
+![alt text](LighthouseScore.PNG "Lighthouse score")
+
 ## Todo List
 
-- [ ] Register a Service Worker
-- [ ] Respond with 200 when offline
-- [ ] Configure custom splash screen
-- [ ] Themed address bar
+- [x] Register a Service Worker
+- [x] Respond with 200 when offline
+- [x] Configure custom splash screen
+- [x] Themed address bar
 
 ## Build Setup
 
