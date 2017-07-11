@@ -1,6 +1,13 @@
 # nuxt-hackernews-clone
 
-> Nuxt.js project
+> An experiment with Vue.js and Nuxt.js. This project is a port of Vue HN 2.0 (https://github.com/vuejs/vue-hackernews-2.0) to Nuxt.js (https://nuxtjs.org/).
+
+## Todo List
+
+- [ ] Register a Service Worker
+- [ ] Respond with 200 when offline
+- [ ] Configure custom splash screen
+- [ ] Themed address bar
 
 ## Build Setup
 
