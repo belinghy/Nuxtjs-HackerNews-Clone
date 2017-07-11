@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "@nuxtjs/component-cache": "^0.1.5",
+    "@nuxtjs/pwa": "^0.2.0",
     "firebase": "^3.7.2",
     "nuxt": "latest",
     "vuex-router-sync": "^4.2.0"

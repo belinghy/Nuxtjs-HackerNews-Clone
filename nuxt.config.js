@@ -16,10 +16,15 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#ff6600' },
+  loading: { color: '#59cc93' },
   /*
   ** Build configuration
   */
+  manifest: {
+    name: 'Nuxt Hacker News',
+    description: 'HackerNews clone built with Nuxt.js',
+    theme_color: '#ff6600'
+  },
   build: {
     /*
     ** Run ESLINT on save
@@ -44,5 +49,6 @@ module.exports = {
   /* modules */
   modules: [
     '@nuxtjs/component-cache',
+    '@nuxtjs/pwa'
   ]
 }
